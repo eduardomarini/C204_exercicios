@@ -1,0 +1,80 @@
+O ano é 2077, você foi chamado pelo lendário mercenário conhecido como V para atuar como Trilha-Redes em sua equipe para administrar o nível de Ciberpsicose de seus implantes cibernéticos. Você deve criar, de forma dinâmica, um programa que registre os implantes em um vetor de struct e use um ponteiro para verificar se eles combinados vão ultrapassar o nível máximo de psicose. A taxa de psicose não pode ultrapassar 60%.
+
+Obs: Utilize ponteiro(s) para a resolução do exercício.
+
+ENTRADA
+
+A entrada consiste em um número inteiro N que corresponde a quantidade de implantes a serem registrados. Para cada implante, entre com o nome (string), com o fabricante (string), com um tier (int) (1 <= Tier <= 5) e por último com a taxa de psicose (float) representado a porcentagem.
+
+SAÍDA
+
+Para a saída, você deve realizar a soma das taxas de psicose dos implantes e verificar se ultrapassou o limite. Imprima uma mensagem para o caso de V se tornar um Ciberpsicopata ou não.
+
+
+Casos de entrada
+
+4
+
+Quantum Turner
+
+Rostovic
+
+5
+
+22.3
+
+Karenzikov
+
+Militech
+
+3
+
+13.6
+
+Zetatech Berserk
+
+Zetatech
+
+3
+
+10.8
+
+Stalker Optics
+
+Kiroshi
+
+1
+
+5.9
+
+Casos de saída
+Vamos tchum! Temos uma cidade pra conquistar!
+
+3
+
+Defenzikov
+
+Kiroshi
+
+3
+
+21.2
+
+RAM Upgrade
+
+Militech
+
+1
+
+15.7
+
+BioDyne Berserk
+
+BioDyne
+
+2
+
+34.7
+
+Casos de saída
+Alerta! Uma recompensa de 50.000 edinhos foi colocada pela sua cabeça. Você se tornou um Ciberpsicopata.
