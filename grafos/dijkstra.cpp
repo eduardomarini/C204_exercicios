@@ -58,6 +58,7 @@ void dijkstra(list<Aresta> adj[], int nVertices, int inicio, int fim) {
         u = pai[u];
     }
 
+    cout << "Menor caminho: ";
     // Impressão do caminho mínimo e custo total
     for (int i = count - 1; i >= 0; --i) {
         cout << caminho[i] << " ";
