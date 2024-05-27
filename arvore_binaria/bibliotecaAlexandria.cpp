@@ -1,6 +1,6 @@
-#include <iostream> // Inclui a biblioteca iostream para entrada/saída
-#include <string> // Inclui a biblioteca string para manipulação de strings
-using namespace std; // Usa o namespace padrão
+#include <iostream> 
+#include <string> 
+using namespace std; 
 
 struct Node { // Define uma estrutura para os nós da árvore de busca binária
     int data; // Os dados armazenados no nó
