@@ -97,8 +97,8 @@ public:
     void search(string nome) {
         Node* result = search(root, nome); // Chama a função recursiva de busca
         if (result != nullptr) {
-            cout << "Nome: " << result->nome << endl; // Imprime o nome se encontrado
-            cout << "Tipo: " << result->tipo << endl; // Imprime o tipo se encontrado
+            cout << "Nome: " << result->nome << endl; 
+            cout << "Tipo: " << result->tipo << endl; 
         } else {
             cout << "Rocha nao encontrada" << endl; // Mensagem se não encontrado
         }
@@ -116,7 +116,6 @@ public:
     }
 };
 
-// Função principal
 int main() {
     BST tree; // Criação da árvore binária de busca
     int option; // Variável para a opção do usuário
