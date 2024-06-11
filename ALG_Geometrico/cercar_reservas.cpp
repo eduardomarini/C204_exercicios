@@ -1,5 +1,6 @@
 #include <iostream> 
 #include <cmath> 
+#include <iomanip>
 using namespace std; 
 
 struct Ponto { // Define uma estrutura de dados para um ponto no espaço 2D
@@ -77,7 +78,8 @@ void cascoConvexo(Ponto pontos[], int n) {
         anterior = atual;
     }
     perimetro += sqrt(distanciaQuadrada(anterior, primeiro)); // Adiciona a distância do último ponto ao primeiro
-    cout << ceil(perimetro) << endl; 
+    cout << fixed << setprecision(4); // Define a precisão da saída para 4 casas decimais
+    cout << perimetro << endl; // Imprime o perímetro do casco convexo 
 }
 
 int main() {
