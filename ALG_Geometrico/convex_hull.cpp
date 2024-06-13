@@ -40,7 +40,7 @@ void cascoConvexo(Ponto pontos[], int n) {
     int p = l, q;
     do {
         // Imprime o ponto atual
-        std::cout << pontos[p].x << " " << pontos[p].y << endl;
+        cout << pontos[p].x << " " << pontos[p].y << endl;
         // Escolhe o ponto mais à direita do ponto atual
         q = (p+1)%n;
         for (int i = 0; i < n; i++) {
@@ -58,11 +58,11 @@ void cascoConvexo(Ponto pontos[], int n) {
     } while (p != l); // Enquanto não voltamos ao ponto inicial
 }
 
-// Função principal
+
 int main() {
     // Lê o número de pontos
     int n;
-    std::cin >> n;
+    cin >> n;
     // Cria um array para armazenar os pontos
     Ponto pontos[n];
     // Lê as coordenadas dos pontos
