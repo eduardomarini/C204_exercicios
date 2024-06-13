@@ -50,9 +50,6 @@ Exemplo de saída
 1:119
 2:124 */
 
-
-
-
 #include <iostream> 
 
 using namespace std; 
@@ -60,7 +57,7 @@ using namespace std;
 // Funções para Árvore Binária de Busca ---------------------------------------
 
 typedef int KeyType; // Define KeyType como um alias para int
-typedef double ValueType; // Define ValueType como um alias para double
+typedef int ValueType; // Define ValueType como um alias para double
 
 struct DataType { // Define uma estrutura para armazenar os dados
     KeyType key; // Chave do nó
@@ -115,10 +112,10 @@ int main() {
     Node * root = NULL; // Cria a raiz da árvore
 
     for(int i = 0; i < T; i++) { 
-        float EM, P, D, A; 
+        double EM, P, D, A; 
         cin >> EM >> P >> A >> D; 
 
-        int PF = (EM * P * A) + (D + A); // Calcula o preço final da torta
+        double PF = (EM * P * A) + (D + A); // Calcula o preço final da torta
 
         DataType data; // Cria uma variável para armazenar os dados
         data.key = i; // Define a chave como o índice da torta
