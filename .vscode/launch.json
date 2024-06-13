@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Desktop/C204_exercicios/ponteiros",
-      "program": "c:/Users/Desktop/C204_exercicios/ponteiros/build/Debug/outDebug",
+      "cwd": "c:/Users/Desktop/C204_exercicios",
+      "program": "c:/Users/Desktop/C204_exercicios/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
